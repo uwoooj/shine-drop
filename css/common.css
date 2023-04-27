@@ -1,0 +1,29 @@
+
+
+.blind{
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip:rect(0 0 0 0);
+}
+
+
+section .tit{
+    text-align: center;
+    color: #b71023;
+    display: inline-block;
+    padding: 4px 72px;
+    margin: 16px 0 40px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 26px;
+    background: url(../img/title_l.png) no-repeat left center, url(../img/title_r.png) no-repeat right center;
+    font-size: 26px;
+
+}
+
+section{
+    width: 1280px;
+    margin: 100px auto;
+    padding: 20px 0;
+}

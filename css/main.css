@@ -1,0 +1,234 @@
+
+
+body{
+    font-family: "NanumBarunpen";
+}
+
+
+
+.main_vis{
+    background: url(../img/visual.png) no-repeat center bottom, linear-gradient(#fff5bf 80%, #fff 10%);
+    height: 1000px;
+    margin-bottom: 160px;
+}
+.main_vis img{}
+
+.character{
+    text-align: center;
+}
+.character .tit{
+    display: inline-block;
+    text-align: center;
+    color: #b71023;
+    padding: 4px 72px;
+    margin: 16px 0 40px;
+    background: url(../img/title_l.png) no-repeat left center, url(../img/title_r.png) no-repeat right center;
+}
+.character ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.character ul li{
+    width: 28%;
+    margin: 20px 1%;
+}
+.character ul li a{}
+.character .img_wrap{}
+.character .img_wrap img{}
+
+.character .txt_wrap{
+    margin: 20px 0;
+    font-family: 'NanumBarunpen';
+}
+.character .txt_wrap h4{
+    color: #2e2e2e;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.character .txt_wrap p{}
+.character .txt_wrap p span{
+    display: block
+}
+
+
+
+
+.story{
+    background: linear-gradient(to left, #fff 70%, #fff5bf 30%);
+    text-align: center;
+    /* width: 1280px; */
+    width: auto;
+    overflow: hidden;
+    padding-bottom: 160px;
+}
+.story .wrap{
+    width: 1280px;
+    margin: 0 auto;
+    margin: 160px auto;
+}
+.story .tit{
+    /* display: inline-block;
+    background: url(../img/title_l.png) no-repeat left center, url(../img/title_r.png) no-repeat right center;
+    text-align: center;
+    padding: 16px 0 40px;
+    margin: 4px 72px;
+*/
+} 
+.story .img_wrap{float: left;}
+.story .img_wrap img{}
+.story .txt_wrap{
+    float: left;
+    margin: 60px 80px;
+    font-family: 'NanumBarunpen';
+    text-align: left;
+}
+.story .txt_wrap h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.story .txt_wrap p{
+    line-height: 22px;
+    color: #717171;
+}
+.story .txt_wrap p span{display: block;}
+
+
+
+.qna{
+text-align: center;
+}
+
+.qna ul li div{
+width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+.qna .tit{}
+.qna ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qna ul li{
+    width: 26%;
+    margin: 20px 3.5%;
+    font-family: 'NanumBarunpen';
+    position: relative;
+    height: 480px;
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: all 1s;
+}
+
+.qna ul li:hover {
+    z-index: 3;
+    transform: rotateY(180deg); }
+
+.qna ul li .front{
+    position: absolute;
+    transform: rotateY(180deg);
+    z-index: 1;
+    background: #fff5bf;
+    padding: 150px 0;
+}
+.qna ul li .front h4{
+
+    font-size: 52px;
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+}
+.qna ul li .front p{}
+.qna ul li .front p span{}
+
+
+.qna ul li .back{
+
+    position: absolute;
+    /* transform: rotateY(180deg); */
+    z-index: 1;
+    background: #fff5bf;
+    padding: 150px 0;
+  
+}
+.qna ul li .back h4{
+    font-size: 52px;
+    letter-spacing: 2px;
+}
+
+
+
+.banner{
+    background: url(../img/banner.jpg) no-repeat center center fixed;
+    height: 440px;
+}
+.banner img{}
+
+
+.hub{
+    text-align: center;
+}
+.hub .tit{}
+.hub ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.hub ul li{
+    width: 31%;
+    margin: 12px 1%;
+    height: 218px;
+    border: 3px dashed #312828;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hub ul li a{
+    display: none;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 212px;
+    background: #312828;
+    color: #fff5bf;
+    font-size: 28px;
+    font-family: 'NanumBarunpen';
+    font-weight: bold;
+    opacity: 0.85;
+    margin-bottom: -212px;
+}
+
+.hub ul li:hover a{
+    display: block;
+}
+.hub ul li img{
+    height: 100%;
+}
+
+
+.hub .btn_more{
+    display: inline-block;
+    margin: 24px 0;
+    font-size: 20px;
+    background: #fff5bf;
+    padding: 12px 28px;
+    cursor: pointer;
+    color: #312828;
+    font-weight: bold;
+    border: 2px solid #312828;
+    border-radius: 3px;
+
+}
+
+.hub .btn_more:hover{
+    opacity: 4.5;
+    background: #eeee;
+}

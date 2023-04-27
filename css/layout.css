@@ -1,0 +1,77 @@
+@import 'reset.css';
+@import 'common.css';
+
+
+
+
+header{
+    width: 100%;
+    position: absolute;
+}
+header .inner{}
+header .inner h1{
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 20px;
+}
+header .inner h1 a{}
+
+header nav{}
+header nav ul{
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 32px;
+}
+header nav ul li a{}
+
+header button{}
+
+header .h-menu{}
+header .h-menu li{}
+header .h-menu li a{}
+
+
+
+/*  */
+
+footer{
+    background: #fff5bf;
+    text-align: center;
+    display: block;
+    height: 180px;
+    padding: 32px 0;
+    box-sizing: border-box;
+}
+footer .inner{}
+footer .inner ul{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .inner ul li{
+    margin: 0 8px;
+}
+footer .inner ul li a{}
+
+footer .copyright{}
+footer .copyright p{
+    color: #2e2e2e;
+    font-family: 'NanumBarunpen';
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+
+footer .scroll_top{
+    position: fixed;
+    cursor: pointer;
+    position: fixed;
+    right: 3%;
+    bottom: 6%;
+    background: none;
+    border: 0;
+}
+footer .scroll_top img{}
